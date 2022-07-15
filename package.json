@@ -1,0 +1,27 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "API construída a partir de tutorial no YouTube em 15/07/2022.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwenvinicius/APIwithNodeJS.git"
+  },
+  "keywords": [
+    "Node",
+    "Tutorial",
+    "Youtube"
+  ],
+  "author": "Vinícius Dias Batista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwenvinicius/APIwithNodeJS/issues"
+  },
+  "homepage": "https://github.com/mwenvinicius/APIwithNodeJS#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
