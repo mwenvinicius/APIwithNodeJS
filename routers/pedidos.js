@@ -4,7 +4,7 @@ const router = express.Router();
 // Retorna todos os pedidos.
 router.get('/', (req,res,next) => {
     res.status(200).send({
-        mensagem: "Todos os Pedidos."
+        mensagem: "Todos os Pedidos !"
     })
 });
 
