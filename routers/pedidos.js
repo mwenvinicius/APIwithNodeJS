@@ -3,8 +3,13 @@ const router = express.Router();
 
 // Retorna todos os pedidos.
 router.get('/', (req,res,next) => {
+    const pedido = {
+        id_produto: req.body.id_produto,
+        quantidade: req.body.quantidade
+    }
     res.status(200).send({
-        mensagem: "Todos os Pedidos !"
+        mensagem: "Todos os Pedidos !",
+        pedidoCriado: pedido
     })
 });
 
